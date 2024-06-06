@@ -9,6 +9,7 @@ This is a sounds censoring application.
 ## Authors
 
 Alex Mutuku
+
 Brian Too
 
 ## Start Date
