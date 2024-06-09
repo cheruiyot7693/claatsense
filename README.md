@@ -2,6 +2,8 @@
 
 This is a sounds censoring application.
 
+On alex branch I'll first create it using electronjs.
+
 ## Packages installed
 
 
