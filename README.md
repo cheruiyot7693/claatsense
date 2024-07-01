@@ -1,17 +1,38 @@
-# Claatsense
+<p align="center"><img src="https://i.imgur.com/X7dSE68.png"></p>
 
-This is a sounds censoring application.
+## Usage
 
-## Packages installed
+### Create an App
 
+```
+# with npx
+$ npx create-nextron-app my-app --example basic-lang-javascript
 
+# with yarn
+$ yarn create nextron-app my-app --example basic-lang-javascript
 
-## Authors
+# with pnpm
+$ pnpm dlx create-nextron-app my-app --example basic-lang-javascript
+```
 
-Alex Mutuku
+### Install Dependencies
 
-Brian Too
+```
+$ cd my-app
 
-## Start Date
+# using yarn or npm
+$ yarn (or `npm install`)
 
-06-June-2024 - 2024
+# using pnpm
+$ pnpm install --shamefully-hoist
+```
+
+### Use it
+
+```
+# development mode
+$ yarn dev (or `npm run dev` or `pnpm run dev`)
+
+# production build
+$ yarn build (or `npm run build` or `pnpm run build`)
+```
